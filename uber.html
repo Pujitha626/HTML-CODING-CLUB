@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="uber.css" />
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div class="nav">
+        <div class="left">
+            <h2>Uber</h2>
+            <ul>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Ride</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Drive</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Business</a></li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">About</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <ul>
+                <li><i class="fa-solid fa-globe"></i> <a href="http://" target="_blank" rel="noopener noreferrer">EN</a>
+                </li>
+                <li><a href="http://" target="_blank" rel="noopener noreferrer">Help</a></li>
+                <li><button id="l-btn">Login</button></li>
+                <li><button class="s-btn">Sign up</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="main">
+        <div class="form">
+            <p><i class="fa-solid fa-location-dot"></i> <span>Vododara, IN </span><a href="#" style="color: black; font-weight: 400;">Change city</a></p>
+            <h1>Go anywhere with<br> Uber</h1>
+            <div class="input">
+                <input type="text" name="pickup" id="pickup" placeholder="Pickup location" class="input-box"><br>
+                <input type="text" name="drop" id="drop" placeholder="Drop location" class="input-box">
+                <div class="sub-input">
+                    <div style="margin-right: 4%;">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date" class="input-box">
+                    </div>
+                    <div style="width: 200px;">
+                        <label for="time">Time</label>
+                        <input type="time" name="time" id="time" class="input-box">
+                    </div>
+                </div>
+                <button id="s-button">See prices</button>&nbsp;<span><a href="" style="color: black; font-family:Arial,sans-serif; ">Log in to see your recent activity</a></span>
+            </div>
+        </div>
+        <div class="img">
+            <img src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=1344/height=896/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9hM2NmODU2NC1lMmE2LTQxOGMtYjliMC02NWRkMjg1YzEwMGIuanBn"
+                alt="Hero">
+        </div>
+    </div>
+
+    <!-- Suggestions -->
+    <div class="main" id="Suggestions">
+        <h1 style="width: 100%; margin-bottom: 20px;">Suggestions</h1>
+        <div class="card">
+            <div class="left">
+                <h4>Ride</h4>
+                <small>Go anywhere with uber. Request a ride, hop in, and go.</small><br>
+                <button class="s-btn">Details</button>
+            </div>
+            <div class="right">
+                <img src="https://mobile-content.uber.com/launch-experience/top_bar_rides_3d.png" alt="img1">
+            </div>
+        </div>
+        <div class="card">
+            <div class="left">
+                <h4>Reserve</h4>
+                <small>reserved your ride in advanced so you can relax on the day of your trip.</small><br>
+                <button class="s-btn">Details</button>
+            </div>
+            <div class="right">
+                <img src="https://mobile-content.uber.com/uber_reserve/reserve_clock.png" alt="img1">
+            </div>
+        </div>
+        <div class="card">
+            <div class="left">
+                <h3>Intercity</h3>
+                <small>Go conveninent, affordable outstation cabs any time at your door.</small><br>
+                <button class="s-btn">Details</button>
+            </div>
+            <div class="right">
+                <img src="https://mobile-content.uber.com/launch-experience/intercity.png" alt="img1">
+            </div>
+        </div>
+        <div class="card">
+            <div class="left">
+                <h3>Rental</h3>
+                <small>request a trip for a block of time and make multiple stops.</small><br>
+                <button class="s-btn">Details</button>
+            </div>
+            <div class="right">
+                <img src="https://mobile-content.uber.com/launch-experience/Hourly2021.png" alt="img1">
+            </div>
+        </div>
+    </div>
+
+    <div class="slide1">
+        <div class="left">
+            <h1>Log in to see your account <br> details</h1><br><br>
+            <p>View past trips, tailored suggestions, support resources,<br> and more.</p><br><br>
+            <button id="l-button">Login to your account</button>
+            <a href="" class="c-btn">Create an account</a>
+        </div>
+        <div class="img1">
+            <img src="https://tb-static.uber.com/prod/udam-assets/850e6b6d-a29e-4960-bcab-46de99547d24.svg" alt="hero">
+        </div>
+    </div>
+
+
+
+    <!-- <h1>Plan for later</h1> -->
+    <h1 style="margin-bottom: 20px; width: 100%;margin-left: 280px;">Plan for later</h1>
+    <div class="slide2">
+        <div class="left">
+            <br><br><br>
+            <h1>Get your ride right <br> with Uber Reserve</h1><br><br>
+            <h3>Choose date and time</h3>
+            <div class="sub-input1">                                       
+                <div style="margin-right: 4%;">
+                    <label for="date">Date</label><br>
+                    <input type="date" name="date" id="date">
+                </div>
+                <div style="width: 200px;">
+                    <label for="time">Time</label><br>
+                    <input type="time" name="time" id="time">
+                </div>
+            </div><br>
+            <button id="l-button">Next</button>
+        </div>
+        <div class="main1" id="planforlater">
+            <h3 style="width: 100%; margin-bottom: 20px;">Benefits</h3>
+            <div class="card1">
+                <div class="left1">
+                    <img src="https://tb-static.uber.com/prod/udam-assets/e12eddee-f082-49f7-a5fc-22c17977de50.svg" alt="">
+                </div>
+                <div class="right">
+                    <p>Choose your exact pickup time up <br>to 90 days in advance</p> <br>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="left1">
+                    <img src="https://tb-static.uber.com/prod/udam-assets/30f5ecd4-8ccf-44d0-9976-2833f69df8a9.svg" alt="">&nbsp;
+                </div>
+                <div class="right">
+                    <p>Extra wait time included to meet <br> your ride</p><br>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="left1">
+                    <img src="https://tb-static.uber.com/prod/udam-assets/45ebda59-6a0d-41e3-a924-0dbbce078029.svg" alt="">&nbsp;
+                </div>
+                <div class="right">
+                    <p>Cancel at no charge up to 60 <br>minutes in advance</p><br>
+                </div>
+            </div>
+            <p>see terms</p>
+        </div>
+    </div>
+    <ul>
+    <div class="slide1">
+        <div class="img2">
+            <img src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=1152/height=1152/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy85NjRkZDNkMS05NGU3LTQ4MWUtYjI4Yy0wOGQ1OTM1M2I5ZTAucG5n" alt="hero">
+        </div>
+        <div class="left">
+            <h1>Drive when you want, make <br>make what you need</h1><br><br>
+            <p>Make money on your schedule with deliveries or rides—or <br>both. You can use your own car or choose a rental <br> through Uber.</p><br><br>
+            <button id="l-button">Get Started</button>
+            <a href="" class="c-btn">Already have an account? Sign in</a>
+        </div>
+    </div>
+
+    <div class="slide1">
+        <div class="right">
+            <h1>The Uber you know, <br> reimagined for business</h1><br><br>
+            <p>Uber for Business is a platform for managing global rides and <br> meals, and local deliveries, for companies of any size.</p><br><br>
+            <button id="l-button">Get Started</button>
+            <a href="" class="c-btn">Check out for solutions</a>
+        </div>
+        <div class="img1">
+            <img src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=1152/height=1152/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy83NmJhZjFlYS0zODVhLTQwOGMtODQ2Yi01OTIxMTA4NjE5NmMucG5n" alt="">
+        </div>
+    </div>
+
+    <div class="slide1">
+        <div class="img2">
+            <img src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=1152/height=1152/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy8xODM0ZTZmZC0zM2UzLTRjOTUtYWQ3YS1mNDg0YThjODEyZDcuanBn" alt="">
+        </div>
+        <div class="left">
+            <h1>Make money by renting out <br> your car</h1><br><br>
+            <p>Connect with thousands of drivers and earn more per week <br> with Uber's free fleet management tools.</p><br><br>
+            <button id="l-button">Get Started</button>
+        </div>
+    </ul>
+    </div>
+
+
+    <!-- Scanners -->
+     <div class="slide3">
+        <h1 style="margin-left: 300px;margin-top: 70px;">It's easier in the apps</h1><br><br>
+        <div class="s1">
+            <div class="scanner1">
+                <img src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=1152/height=1152/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9hNTk5ODZhZC0wZDlmLTQzOTYtODUzOS0zODliY2U5N2Y1NzkucG5n" alt="">
+            </div>
+            <div class="d1">
+                <br><br>
+                <h2>Download the Uber app</h2>
+                <p>Scan to download</p>
+            </div>
+        </div>
+        <div class="s1">
+            <div class="scanner1">
+                <img src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=1152/height=1152/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9jODQ2NmEyNy1kMzBjLTUxNGEtOTZmMi1lMDlmMThmYWY4MDYucG5n" alt="">
+            </div>
+            <div class="d1">
+                <br><br>
+                <h2>Download the Driver app</h2>
+                <p>Scan to download</p>
+            </div>
+        </div>
+     </div>
+</body>
+
+</html>

@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+    font-family:Helvetica, sans-serif;
+}
+
+/* Nav Bar */
+
+.nav{
+    background-color: black;
+    height: 6vh;
+    width: 100%;
+    margin: none;
+    display: flex;
+    color: white;
+}
+
+.nav div{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    margin-left: 13%;
+}
+
+.nav .right{
+    width: 100%;
+    margin-left: 30%;
+}
+
+.nav .left h2{
+    font-weight: 500;
+}
+
+
+.nav div ul{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin-left: 10%;
+    align-items: center;
+}
+
+.nav div ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav div ul #l-btn{
+    background-color: black;
+    padding: 10px 0px;
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
+.s-btn{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+}
+
+
+/* Hero Section */
+.main{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 4%;
+    gap: 11%;
+}
+
+.main img{
+    width: 600px;
+}
+
+.main .form h1{
+    font-size: 50px;
+    margin: 20px 0px;
+}
+
+.input-box{
+    background-color: rgba(128, 128, 128, 0.08);
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size:medium;
+}
+
+.form .input input{
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+.form .input .sub-input{
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+}
+
+#s-button{
+    width: 120px;
+    background-color: black;
+    padding: 15px 0px;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+
+/* Suggestions */
+#Suggestions{
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: start;
+    padding: 0px 250px;
+    gap: 20px;
+}
+
+.main .card{
+    background-color: rgba(128, 128, 128, 0.08);
+    width: 400px;
+    height: 180px;
+    display: flex;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.main .card img{
+    width: 100px;
+    height: fit-content;
+}
+
+.main .card .left small{
+    display: block;
+    margin: 15px 0px;
+}
+
+.slide1 {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px;
+    margin-bottom: 50px;
+    
+}
+.slide1 .left {
+    max-width: 45%;
+    /* margin:30px; */
+}
+.slide1 .left h1 {
+    font-size: 35px;
+}
+.slide1 .left p {
+    font-size: 20px;
+}
+#l-button {
+    width: 200px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 100px;
+}
+.c-btn {
+    color: black;
+    height: 5px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.c-btn:hover {
+    text-decoration-line:underline;
+}
+.slide1 .img1 img {
+    height: 500px;
+    width: 550px;
+    border-radius: 5px;
+}
+.slide1 .img2 img {
+    height: 500px;
+    width: 550px;
+}
+
+.slide2 {
+    display: flex;
+    height: 500px;
+    padding: 15px;
+    margin-left: 15%;
+    gap: 100px;
+    width: 100%;
+}
+.slide2 .left {
+    background-color: rgb(133, 213, 240);
+    padding: 30px 100px;
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+    align-items: flex-start;
+    justify-content: start;
+    background-image: url(https://tb-static.uber.com/prod/udam-assets/5152cc71-a5b0-4fbd-aeb8-bee896efcd48.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    /* max-width: 45%; */
+}
+.slide2 .main1 .card1 {
+    background-color: rgba(34, 22, 22, 0.049);
+    display: flex;
+    width: 300px;
+    margin: 20px;
+    padding-top: 20px;
+    /* align-items: center; */
+    /* justify-content: center; */
+
+}
+.sub-input1 {
+    display: flex;
+    padding: 10px;
+}
+.slide3 {
+    display: flex;
+}
+.slide3 {
+    display: flex;
+    background-color: rgba(142, 180, 246, 0.489);
+    height: 200px;
+    width: 100%;
+    gap: 20px;
+}
+.slide3 .s1 {
+    height: 150px;
+    width: 500px;
+    display: flex;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.slide3 .s1 .scanner1 {
+    height: 150px;
+    width: 200px;
+    display: flex;
+    border-radius: 10px;
+    /* align-items: center; */
+}
+.slide3 .s1 .d1 {
+    align-items: center;
+    justify-content: center;
+}
+/* #planforlater {
+    padding: 15px;
+    height: 20px;
+    width: 15px;
+    display: grid; */
+/* } */
+/* demo
+.demo{
+    display: flex;
+    overflow-x: auto;
+}
+
+.demo h1{
+    display: inline-block;
+    background-color: cadetblue;
+    padding: 30px;
+    width: 100px;
+    height: 200px;
+}
+
+.demo span{
+    display: inline-block;
+    background-color: coral;
+    padding: 20px;
+    width: 100px;
+    height: 200px;
+} */

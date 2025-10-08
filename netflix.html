@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            margin: none;
+            padding: none;
+            background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f562aaf4-5dbb-4603-a32b-6ef6c2230136/dh0w8qv-9d8ee6b2-b41a-4681-ab9b-8a227560dc75.jpg/v1/fill/w_1280,h_720,q_75,strp/the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6Ii9mL2Y1NjJhYWY0LTVkYmItNDYwMy1hMzJiLTZlZjZjMjIzMDEzNi9kaDB3OHF2LTlkOGVlNmIyLWI0MWEtNDY4MS1hYjliLThhMjI3NTYwZGM3NS5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.FScrpAAFnKqBVKwe2syeiOww6mfH6avq-DRHZ_uFVNw);
+            background-size: cover;
+            /* background-size: contain; */
+            /* background-repeat: no-repeat; */
+        }
+        #main-container {
+            height: 100vh;
+            width: 101%;
+            margin: -2% -1% 0% -1%;
+            background-color: rgba(0, 0, 0, 0.367);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #signin {
+            width: 30%;
+            height: 50vh;
+            background-color: rgba(0, 0, 0, 0.56);
+            color: white;
+            font-family:sans-serif;
+            padding: 2.5%;
+        }
+        .size {
+            padding: 5px;
+            width: 90%;
+            font-size: medium;
+            /* border-radius: 4px; */
+            display: flex;
+            /* justify-items: center; */
+            /* align-content: center; */
+        }
+        input {
+            background-color: rgba(0, 0, 0, 0.243);
+            border: 1px solid grey;
+            color: white;
+            border-radius: 5px;
+        }
+        button {
+            background-color: rgba(211, 222, 222, 0.49);
+            border: none;
+            width: 90%;
+            padding: 2.5%;
+            border-radius: 5px;
+            font-weight: 700;
+            /* font-family: sans-serif; */
+        }
+    </style>
+    <div id="main-container">
+        <div id="signin">
+            <h3>Sign In</h3>
+            <form action="">
+                <input type="text" id="email" name="email" placeholder="Email or Mobile number" class="size" required><br>
+                <input type="text" id="password" name="password" placeholder="Password" class="size" required><br>
+                <!-- <center> -->
+                    <button style="background-color: red;">Sign In</button>
+                <p style="margin-left: 45%;color: gray;">OR</p>
+                <button>Use a sign-in code</button><br><br>
+                <!-- </center> -->
+                <a href="" style="margin-left: 35%;color: white;">Forgot password?</a><br>
+                <input type="checkbox">Remember Me <br>
+                <p><span>New to Netflix?<b>Sign up now.</b></span></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
